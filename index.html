@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+
+<body>
+  <div id="dados">
+    <hr>
+    <h3>potencia em watts:</h3>
+    <input type="number" name="potencia_watts" id="potenciaWatts">
+    <h3>horas por dia:</h3>
+    <input type="number" name="horas" id="horas">
+    <h3>Dias:</h3>
+    <input type="number" name="dias" id="dias">
+    <hr>
+  </div>
+</body>
+<div id="resultado">
+  <h3>Valor por hora: </h3>
+  <h3 id="consumo"></h3>
+  <button onclick="calcularConsumo()">Calcular Consumo</button>
+  <script src="calculo.js"> </script>
+</div>
+
+</html>
