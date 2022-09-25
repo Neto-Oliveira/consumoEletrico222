@@ -9,9 +9,13 @@
 
 </head>
 
+
 <body>
   <div id="dados">
+    <h2>Consumo elétrico Mensal</h2>
     <hr>
+    <h3> Descrição da Conta: </h3>
+    <input type="text" name="descricao_conta" id="descricao_conta" />
     <h3>potencia em watts:</h3>
     <input type="number" name="potencia_watts" id="potenciaWatts">
     <h3>horas por dia:</h3>
@@ -27,5 +31,25 @@
   <button id="botaoConsumo">Calcular Consumo</button>
   <script src="index.js"> </script>
 </div>
+<hr>
+
+<div>
+  <div>
+
+    <hr />
+    <h3>
+      Valor a pagar:
+      <input type="number" name="valor_conta" id="valor_conta" />
+    </h3>
+    <p></p>
+    <button type="submit" id="registrar_conta" onclick="cadastrar_contas ()">
+      <strong>Registrar Conta</strong>
+    </button>
+
+    <h3 id="contas"><br /></h3>
+    <hr />
+    <h3 id="contas2"></h3>
+
+  </div>
 
 </html>
